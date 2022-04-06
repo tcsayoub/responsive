@@ -1,0 +1,265 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    max-height: 1400px;
+}
+
+
+.navbar-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1850px;
+}
+.navbar-logo__menu{
+    display: flex;
+    align-items: center;
+}
+.navbar-logo{
+    display: flex;
+    margin-left: 70px;
+
+}
+.navbar-logo img{
+    height: 100%;
+    margin-top: 20px;
+    width: 17%;
+}
+.navbar-logo h1{
+    margin-left: 5px;
+}
+.navbar__main-menu{
+    display: flex;
+}
+.navbar__main-menu li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+.navbar__main-menu a{
+    text-decoration: none;
+    color: rgb(116, 112, 112);
+    font-weight: 600;
+    transition: all 300ms ease-in-out;
+    font-size: 19px;
+}
+.new-style__sta{
+    color: rgb(153, 149, 149);
+}
+.navbar__main-menu a:hover{
+    color: black;
+}
+.button-navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid rgb(218, 64, 115);
+    padding: 7px ;
+    border-radius: 50px;
+}
+.coming-soon__text{
+    color: red;
+    border: 1px solid red;
+    max-width: 65px;
+    font-size: 12px;
+    border-radius: 10px;
+    position: relative;
+    left: 575px;
+    bottom: 70px;
+}
+/*****************header******/
+.text-container{
+    float: right;
+    position: relative;
+    bottom: 460px;
+    right: 350px;
+    line-height: 0.5;
+}
+.text8{
+    max-width: 400px;
+    line-height: 1.2;
+    color: grey;
+}
+.header-image img{
+    margin-left: 150px;
+    width: 30%;
+    position: relative;
+    margin-top: 70px;
+}
+.text1{
+    font-size: 90px;
+}
+.text2{
+    font-weight: 900;
+    font-size: 20px;
+}
+.text3{
+    color: grey;
+    font-size: 20px;
+}
+.text4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.text5{
+    font-weight: 600;
+    font-size: 20px;
+}
+.text6{
+    font-weight: 600;
+    font-size: 20px;
+}
+.text7{
+    font-weight: 600;
+    font-size: 20px;
+}
+.mint-button a{
+    position: relative;
+    float: right;
+    text-decoration: none;
+    color: white;
+    border: 3px solid transparent;
+    background-color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px;
+    padding-right: 120px;
+    padding-left: 120px;
+    left: 350px;
+    transition: all 400ms ease-in-out;
+}
+.mint-button a:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+
+/**********footer*****/
+.footer-main{
+    background-color: black;
+    position: relative;
+    padding-bottom: 50px;
+    height: 39vh;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+    margin-top: 50px;
+    bottom: 130px;
+}
+.footer-text{
+    color: white;
+    margin-left: 200px;
+    font-weight: 700;
+}
+.main-list__footer1{
+    float: right;
+
+}
+.main-list__footer2{
+    float: right;
+}
+.text-footer4{
+    color: grey;
+    font-size: 17px;
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+}
+.text-footer3{
+    color: grey;
+    font-size: 17px;
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+}
+.text-footer2{
+    font-size: 30px;
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+}
+.diamond-image__footer img{
+    position: relative;
+    left: 140px;
+    top: 60px;
+    width: 3%;
+}
+.main-list__footer1 li{
+    list-style-type: none;
+}
+.main-list__footer2 li{
+    list-style-type: none;
+}
+.main-list__footer1 a{
+    text-decoration: none;
+    color: grey;
+}
+.main-list__footer2 a{
+    text-decoration: none;
+    color: grey;
+}
+.main-list__footer1{
+    position: relative;
+    right: 350px;
+    bottom: 210px;
+    font-weight: 600;
+    line-height: 2;
+}
+.colored-footer{
+    color: white;
+}
+.main-list__footer2{
+    position: relative;
+    bottom: 210px;
+    font-weight: 600;
+    line-height: 2;
+}
+.main-list__images{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 130px;
+}
+.main-list__images li{
+    list-style-type: none;
+}
+.main-list__images img{
+    width: 13%;
+}
+.main-list__images a{
+    text-decoration: none;
+}
+.discord__footer{
+    position: relative;
+    left: 240px;
+}
+.twit-footer{
+    position: relative;
+    right: 200px;
+}
+.line{
+    height: 10px;
+    background: linear-gradient(51deg, rgb(81, 145, 213) 0%, rgb(211, 18, 151) 100%);
+    z-index: 1;
+    position: relative;
+    top: 250px;
+}
+/***********edits****/
+.all-container__header{
+    border: 1px solid transparent;
+    margin-right: 200px;
+    margin-left: 300px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 80px rgb(0 0 0 / 45%);
+    height: 500px;
+    position: relative;
+    right: 40px;
+    top: 50px;
+}
